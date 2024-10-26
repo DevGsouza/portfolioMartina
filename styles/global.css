@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+
+  /* Variaveis fontes family */
+  --family-asap: 'Asap', sans-serif;
+  --family-inconsolata: 'Inconsolata', sans-serif;
+  --family-maven: 'Maven Pro', sans-serif;
+
+  /* Variaveis fonts */
+  --font-title-lg: bold 5.6rem/120% var(--family-asap);
+  --font-title-md: bold 2.4rem/120% var(--family-asap);
+  --font-title-sm: bold 1.6rem/120% var(--family-asap);
+
+  --font-subtitle: 400 2.4rem/120% var(--family-inconsolata);
+
+  --font-text-md: 400 1.6rem/140% var(--family-maven);
+  --font-text-sm: 400 1.4rem/140% var(--family-maven);
+
+  /* Variaveis cores */
+  --color-red: #e3646e;
+  --color-purple: #bb72e9;
+  --color-gray-100: #0d0e11;
+  --color-gray-200: #16181d;
+  --color-gray-300: #292c34;
+  --color-gray-400: #878ea1;
+  --color-gray-500: #c0c4ce;
+  --color-gray-600: #e2e4e9;
+  --color-white: #fff;
+  --bg-color: #29292e;
+}
+
+body {
+  background-color: var(--bg-color);
+}

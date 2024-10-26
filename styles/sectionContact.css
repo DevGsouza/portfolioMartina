@@ -1,0 +1,36 @@
+.contact {
+  padding-top: 12rem;
+  text-align: center;
+
+  &:has(.title-md) {
+    color: var(--color-gray-500);
+  }
+}
+
+.social-network {
+
+  margin-top: 4rem;
+  justify-content: center;
+
+  div {
+    color: var(--color-gray-500);
+    background-color: var(--color-gray-300);
+
+    width: 40rem;
+    height: 7rem;
+    padding: 15px;
+
+    border-radius: 15px;
+
+
+    align-items: center;
+
+    position: relative;
+
+    .position {
+      position: absolute;
+      right: 0;
+      padding: 15px 30px;
+    }
+  }
+}

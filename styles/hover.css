@@ -1,0 +1,22 @@
+.habilitys,
+.services {
+  div:hover {
+    transform: scale(1.1);
+  }
+}
+
+.container img:hover {
+  transform: scale(1.2);
+}
+
+.position:hover {
+  transform: scale(1.3);
+}
+
+.social-network div:hover {
+  font-weight: bold;
+
+  img {
+    transform: scale(1.2);
+  }
+}

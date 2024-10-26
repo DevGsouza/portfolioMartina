@@ -1,0 +1,43 @@
+.top {
+  width: 136.6rem;
+  position: relative;
+  margin-inline: auto;
+  justify-content: center;
+
+  .img-cover {
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .container {
+    width: 74.5rem;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+  }
+}
+
+.habilitys {
+  width: 75.4rem;
+}
+
+.bg-card {
+  height: 4rem;
+  padding: 7px;
+  border-radius: 20px;
+  justify-content: center;
+
+  img {
+    width: 2.4rem;
+  }
+}
+
+strong {
+  font: var(--font-text-md);
+  color: var(--color-gray-500);
+}
+
+.width-680 img {
+  width: 9.6rem;
+}

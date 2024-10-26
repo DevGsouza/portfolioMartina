@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap');
+@import url('./global.css');
+@import url('./utility.css');
+@import url('./sectionTop.css');
+@import url('./sectionWorks.css');
+@import url('./sectionService.css');
+@import url('./sectionContact.css');
+@import url('./hover.css');

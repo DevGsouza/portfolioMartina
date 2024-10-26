@@ -1,0 +1,41 @@
+.works {
+  background-color: var(--color-gray-200);
+  padding-block: 3rem;
+  text-align: center;
+  justify-content: center;
+
+  p {
+    color: var(--color-gray-600);
+    margin-top: 8px;
+  }
+}
+
+.projects {
+
+  margin-block: 6rem 9rem;
+
+  div {
+    height: 28rem;
+    width: 33rem;
+    padding: 10px;
+
+    text-align: left;
+    background-color: var(--color-gray-300);
+    border-radius: 8px;
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      color: var(--color-gray-600);
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: var(--color-gray-500);
+    }
+  }
+}
